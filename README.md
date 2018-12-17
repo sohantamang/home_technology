@@ -1,6 +1,6 @@
 # home_technology
 
-##CONTACT ##
+## CONTACT ##
 Ram Bhattarai: ramkbhattarai94@gmail.com <br />
 Sohan Tamang:  tamangsohan@gmail.com<br />
 
