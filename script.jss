@@ -5,8 +5,7 @@
   var link = home + '/ws/v1/arrivals?locIDs='+id+'&AppID='+key+'&json=true';
 
   $.getJSON(link,function(data){
-  	var text, estimated_time, scheduled, i, estimated, arrivaltime,
-			  currenttime, subtime, date = new Date();
+  	var text, estimated_time, scheduled, i, estimated, date = new Date();
 
     for (i = 0; i < data.resultSet.arrival.length; i++){
     	estimated = data.resultSet.arrival[i].estimated;
@@ -15,9 +14,6 @@
 			else
 				estimated_time = new Date(estimated);
       scheduled = estimated_time.toLocaleTimeString();
-    	//arrivaltime = Number(text1.getMinutes());
-      //currenttime = Number(date.getMinutes());
-      //subtime = Math.abs(arrivaltime - currenttime);
 			text = `<span id="route">${route_or_icon(data.resultSet.arrival[i].route)}</span>
 							<span id="short_sign">${data.resultSet.arrival[i].shortSign}</span>
 							<span id="arrival_min">${Math.ceil(Math.abs(estimated_time-date)/60000)+' min'}</span>
