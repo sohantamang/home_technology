@@ -1,8 +1,11 @@
+<<<<<<< HEAD
+=======
 span{
   font-family: Helvetica,Arial,sans-serif;
   font-size: 20px;
 }
 
+>>>>>>> master
 .button {
     text-decoration-color: green;
     text-align: center;
@@ -15,4 +18,8 @@ span{
     text-align: center;
     display: inline-block;
     color: blue;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> master
