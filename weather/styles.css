@@ -1,0 +1,19 @@
+h1{
+  font-size: 30px;
+  color: blue;
+}
+
+span{
+  font-size: 35px;
+  color: blue;
+}
+.Cityname{
+  margin-left: 20px;
+  color: red;
+  size: 25px;
+}
+.weatherdata{
+  display: grid;
+  grid-template-columns:auto auto;
+  justify-content: left;
+}
